@@ -1,5 +1,7 @@
 import spiroGenImage from '../../Public/Images/SpiroGen.gif';
-import poolPredictorImage from '../../Public/Images/PoolPredictor.gif'
+import poolPredictorImage from '../../Public/Images/PoolPredictor.gif';
+import waveformDrawImage from '../../Public/Images/Drawing2Waveform_img2.png';
+import blueBoxImage from '../../Public/Images/BlueBox_img1.png';
 
 
 const portfolioCardInfo = [
@@ -18,7 +20,17 @@ const portfolioCardInfo = [
     {
         title: "Ryan's Art Tool",
         image: poolPredictorImage,
-        description: ""
+        description: "A tool for making angle and relative distance measurements on reference photos for artists."
+    },
+    {
+        title: "Drawing 2 Waveform",
+        image: waveformDrawImage,
+        description: "Input an image of a scribble, and get back a single-cycle wav file for a synthesizer."
+    },
+    {
+        title: "BlueBox",
+        image: blueBoxImage,
+        description: "A product design project of a modular MIDI controller"
     }
 ];
 

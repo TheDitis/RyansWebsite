@@ -6,12 +6,6 @@ import uuid from 'react-uuid';
 import portfolioCardInfo from "./portfolioCardInfo";
 import PortfolioCardDetails from "../PortfolioCardDetails/PortfolioCardDetails";
 
-const showDetails = index => {
-    return (
-        <PortfolioCardDetails/>
-    )
-}
-
 const Portfolio = props => {
     const [showCard, setShowCard] = useState(-1);  // set to the index of the card to show details for, or -1 if none
 

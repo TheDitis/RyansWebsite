@@ -18,7 +18,9 @@ const PortfolioCard = props => {
                  alt={"Project Image"}
                  width={"90%"}
             />
-            <p className={styles.description}>{props.description}</p>
+            <div className={styles.bottomSection}>
+                <p className={styles.description}>{props.description}</p>
+            </div>
         </motion.div>
     )
 };
