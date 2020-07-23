@@ -1,0 +1,13 @@
+.PortfolioCardDetails {
+    background-color: white;
+    height: 81%;
+    width: 90%;
+    z-index: 10;
+    position: absolute;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+}
+
+.exitButton {
+    float: right;
+    cursor: pointer;
+}

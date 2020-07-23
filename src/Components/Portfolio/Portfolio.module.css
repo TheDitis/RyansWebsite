@@ -1,0 +1,17 @@
+.Portfolio {
+    background-color: rgba(0, 0, 0, 0);
+    width: 100vw;
+    height: calc(100vh - 200px);
+    display: flex;
+    overflow-x: scroll;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.cardRow {
+    /*position: relative;*/
+    /*left: 20vw;*/
+    display: flex;
+    background-color: red;
+}

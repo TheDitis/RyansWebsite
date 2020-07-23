@@ -1,0 +1,25 @@
+.PortfolioCard {
+    padding: 10px;
+    margin: 50px;
+    background-color: white;
+    min-width: 350px;
+    width: 400px;
+    height: 600px;
+    border-radius: 20px;
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.4);
+}
+
+.title {
+    margin: 15px;
+    font-size: 25pt;
+}
+
+.image {
+    /*width: 180px;*/
+}
+
+.description {
+    font-size: 18pt;
+}
+
+/*@media (max-width: )*/
