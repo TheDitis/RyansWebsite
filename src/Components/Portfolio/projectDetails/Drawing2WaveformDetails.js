@@ -1,14 +1,10 @@
 import React from 'react';
-import styles from './Drawing2WaveformDetails.css';
+import styles from '../PortfolioCardDetails/PortfolioCardDetails.module.css';
 
 
 const Drawing2WaveformDetails = props => {
     return (
-        <div className="projectInfo">
-            {/*<div className="projectHeader">*/}
-            {/*    <h1>Drawing2Waveform</h1>*/}
-            {/*    <p>Input an image of a scribble, and get back a single-cycle wav file for a synthesizer.</p>*/}
-            {/*</div>*/}
+        <div className={styles.projectInfo}>
             <br/><br/>
             <h2>To use:</h2>
             <ol>

@@ -1,8 +1,9 @@
 .Footer {
-    background-color: rgba(0, 0, 0, 0.1);
+    background-color: #E8E8E8;
     margin-bottom: 0;
     bottom: 0;
     position: fixed;
+    z-index: 4;
     width: 100vw;
     height: 100px;
     max-height: 100px;
@@ -20,4 +21,12 @@
     display: flex;
     float: right;
     margin-right: 10px;
+}
+
+.gitHubImage {
+    transition: all 0.1s ease-in-out;
+}
+
+.gitHubImage:hover {
+    transform: scale(1.1);
 }

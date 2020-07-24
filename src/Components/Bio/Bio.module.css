@@ -10,6 +10,16 @@
     font-size: 2vw;
 }
 
+.hobbyTable {
+    text-align: center;
+    margin: auto;
+    margin-bottom: 40px;
+}
+.hobbyTable td {
+    padding: 10px;
+    border: 2px solid black;
+}
+
 .title {
     margin: 50px 0;
     font-size: 30pt;

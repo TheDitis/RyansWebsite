@@ -1,10 +1,9 @@
-import React, {useState, useEffect} from 'react';
+import React from 'react';
 import styles from './PortfolioCard.module.css';
-import {motion, AnimateSharedLayout} from "framer-motion";
+import {motion} from "framer-motion";
 
 
 const PortfolioCard = props => {
-
     return (
         <motion.div
             className={styles.PortfolioCard}

@@ -1,15 +1,23 @@
 import React from 'react';
 import styles from './Footer.module.css';
 import useTime from "../hooks/useTime";
+import gitHubImage from '../../Public/Images/github.svg';
 
 const Footer = props => {
     const time = useTime(1000);
 
     return (
         <div className={styles.Footer}>
-            <h3>Footer</h3>
             <div className={styles.mainSection}>
-                <h3>Github</h3>
+                <a href={"https://github.com/TheDitis/"} style={{marginTop: 20}}>
+                    <img
+                        className={styles.gitHubImage}
+                        src={gitHubImage}
+                        alt={"Github"}
+                        width={50}
+                        style={{marginTop: 20}}
+                    />
+                </a>
             </div>
             <div className={styles.bottomSection}>
                 <div className={styles.time}>

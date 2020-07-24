@@ -1,16 +1,14 @@
 import React from 'react';
 import styles from './Bio.module.css';
-// import {ReactSoundcloud} from 'react-soundcloud-embed';
 import ReactPlayer from "react-player";
-import ryanImage from '../../Public/Images/Ryan_img1_portrait.jpg'
-import chipmunkImage from '../../Public/Images/RyanAndChipmunk_small.jpg'
+import ryanImage from '../../Public/Images/Ryan_img1_portrait.jpg';
+import chipmunkImage from '../../Public/Images/RyanAndChipmunk_small.jpg';
+import jetsonImage from '../../Public/Images/Jetson_Image.jpg';
 
 
 const Bio = props => {
     return (
         <div className={styles.Bio}>
-
-            {/*<ReactSoundcloud url={"https://soundcloud.com/ditis/a-dangerous-game"}/>*/}
 
             <img src={ryanImage} alt={"Photo of me"} width={"60%"}/>
             <h1 className={styles.title}>About Me</h1>
@@ -36,6 +34,7 @@ const Bio = props => {
                 width={window.innerWidth < 650 ? "90%" : 650}
             />
             <h1 className={styles.title}>Programming</h1>
+            <img src={jetsonImage} align={"left"} alt={"Circuit Image"} width={"20%"} style={{float: "left"}}/>
             <p>
                 I started learning to code when I was about 19, and I have been doing it ever since. I started messing
                 around doing projects with Arduino and Rasperry Pi. One of my favorite early projects was to rig my
@@ -43,12 +42,37 @@ const Bio = props => {
                 a real drum beat. Later on I learned to use Python, and I was initially focused on computer vision.
                 I learned how to use OpenCV to manipulate and extract useful information form images. Since I started
                 to get more serious about 3 years ago, I have added Javascript, React, and C++ to my tool belt of
-                languages.
+                languages. While I do consult as a software engineer, working mostly in React and Python, I also have a
+                small local business called Lookout Mountain Tech Solutions, whre I spend my time helping people in the
+                Golden/Evergreen area with their computer troubles.
             </p>
             <h1 className={styles.title}>Interests</h1>
-            <table>
+            <table className={styles.hobbyTable}>
+                <tr>
+                    <th style={{width: "100px", textAlign: "center"}}>Category</th>
+                    <th>Hobbies</th>
+                </tr>
+                <tr>
+                    <td>Music</td>
+                    <td>Piano, Saxophone, Music Production, Improvisation</td>
+                </tr>
+                <tr>
+                    <td>Coding</td>
+                    <td>Python, React, OpenCV, C++, Javascript, Computer Vision, Tensorflow/Keras</td>
+                </tr>
+                <tr>
+                    <td>Art</td>
+                    <td>Ceramics, Drawing, Sound Visualization</td>
+                </tr>
+                <tr>
+                    <td>Health</td>
+                    <td>Biking, Running, Ketosis, Basketball, Swimming, Weight Training</td>
+                </tr>
+
 
             </table>
+
+            <h1 className={styles.title}>Proud Moment:</h1>
             <img
                 src={chipmunkImage}
                 alt="" useMap="#map1595561587408"

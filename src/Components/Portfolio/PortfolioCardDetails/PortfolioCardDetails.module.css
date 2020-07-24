@@ -8,11 +8,13 @@
     padding: 40px;
     border-radius: 20px;
     font-size: 2.2vw;
+    margin-top: 200px;
 }
 
 .PortfolioCardDetails img {
     margin: 60px auto;
-    max-width: 1600px;
+    width: 100%;
+    /*max-width: 1600px;*/
 }
 
 .title {
@@ -28,12 +30,19 @@
 
 .titleRow {
     height: 100px;
-    border-bottom: 2px solid gray;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.3);
 }
 
 .exitButton {
     float: right;
     cursor: pointer;
+    position: relative;
+    bottom: 50px;
+    transition: all 0.1s ease-in-out;
+}
+
+.exitButton:hover {
+    transform: scale(1.1);
 }
 
 .contentSection {
@@ -52,4 +61,25 @@
     .title {
         font-size: 40pt;
     }
+}
+
+
+.projectInfo {
+    padding: 10vw;
+    padding-top: 0;
+}
+
+.projectInfo ul {
+
+    list-style-type: circle;
+}
+
+.projectInfo li {
+    text-align: left;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.projectInfo li::before {
+    /*content: ">";*/
 }

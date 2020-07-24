@@ -1,19 +1,20 @@
 import React from 'react';
+import styles from '../PortfolioCardDetails/PortfolioCardDetails.module.css';
 
 
 const SpirogenDetails = props => {
     return (
-        <div className="projectInfo">
+        <div className={styles.projectInfo}>
             <div className="projectHeader">
-                <h1>SpiroGen</h1>
+                {/*<h1>SpiroGen</h1>*/}
                 <p>A Playground for Making Geometric Patterns</p>
             </div>
             <br/><br/>
-            <img
-                src="https://github.com/TheDitis/SpiroGen/blob/master/spirogen/interface/settings/tutorial/images/TutorialWelcome.gif?raw=true"
-                alt="Example Image"
-                className="projectImage"
-            />
+            {/*<img*/}
+            {/*    src="https://github.com/TheDitis/SpiroGen/blob/master/spirogen/interface/settings/tutorial/images/TutorialWelcome.gif?raw=true"*/}
+            {/*    alt="Example Image"*/}
+            {/*    className="projectImage"*/}
+            {/*/>*/}
             <br/><br/>
             <h2>Overview</h2>
             <p>

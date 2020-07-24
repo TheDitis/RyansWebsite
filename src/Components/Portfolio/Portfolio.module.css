@@ -6,7 +6,11 @@
     /*overflow-x: scroll;*/
     align-items: center;
     justify-content: center;
+}
 
+.scrollSection {
+    overflow-y: scroll;
+    margin-top: 100px;
 }
 
 .cardRow {
@@ -14,8 +18,9 @@
     background-color: white;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.4) inset;
     justify-content: center;
-    overflow-x: scroll;
     overflow-y: hidden;
     min-width: 100vw;
     max-width: 600vw;
+    padding-left: 930px;
+    padding-right: 930px;
 }

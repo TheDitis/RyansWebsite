@@ -1,11 +1,11 @@
 import React from 'react';
 import styles from './PortfolioCardDetails.module.css';
-import {motion, AnimatePresence} from "framer-motion";
-import PoolPredictorDetails from "../projectDetails/PoolPredictorDetails/PoolPredictorDetails";
-import Drawing2WaveformDetails from "../projectDetails/Drawing2WaveformDetails/Drawing2WaveformDetails";
-import BlueBoxDetails from "../projectDetails/BlueBoxDetails/BlueBoxDetails";
-import SpirogenDetails from "../projectDetails/SpirogenDetails/SpirogenDetails";
-import DrawingToolDetails from "../projectDetails/DrawingToolDetails/DrawingToolDetails";
+import {motion} from "framer-motion";
+import PoolPredictorDetails from "../projectDetails/PoolPredictorDetails";
+import Drawing2WaveformDetails from "../projectDetails/Drawing2WaveformDetails";
+import BlueBoxDetails from "../projectDetails/BlueBoxDetails";
+import SpirogenDetails from "../projectDetails/SpirogenDetails";
+import DrawingToolDetails from "../projectDetails/DrawingToolDetails";
 
 
 const projectContents = [
