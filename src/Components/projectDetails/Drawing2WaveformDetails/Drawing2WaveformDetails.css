@@ -1,0 +1,10 @@
+.projectInfo {
+    padding: 10vw;
+    padding-top: 0;
+}
+
+.projectInfo li {
+    text-align: left;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}

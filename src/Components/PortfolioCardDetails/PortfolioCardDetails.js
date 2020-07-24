@@ -1,6 +1,20 @@
 import React from 'react';
 import styles from './PortfolioCardDetails.module.css';
 import {motion, AnimatePresence} from "framer-motion";
+import PoolPredictorDetails from "../projectDetails/PoolPredictorDetails/PoolPredictorDetails";
+import Drawing2WaveformDetails from "../projectDetails/Drawing2WaveformDetails/Drawing2WaveformDetails";
+import BlueBoxDetails from "../projectDetails/BlueBoxDetails/BlueBoxDetails";
+import SpirogenDetails from "../projectDetails/SpirogenDetails/SpirogenDetails";
+import DrawingToolDetails from "../projectDetails/DrawingToolDetails/DrawingToolDetails";
+
+
+const projectContents = [
+    SpirogenDetails,
+    PoolPredictorDetails,
+    DrawingToolDetails,
+    Drawing2WaveformDetails,
+    BlueBoxDetails
+];
 
 
 const PortfolioCardDetails = props => {
@@ -13,7 +27,7 @@ const PortfolioCardDetails = props => {
             exit={{scale: 0}}
         >
             <div className={styles.titleRow}>
-                <h1>TEST</h1>
+                <h1 className={styles.title}>{props.basicInfo.title}</h1>
                 <a
                     className={styles.exitButton}
                     onClick={() => {
@@ -25,7 +39,8 @@ const PortfolioCardDetails = props => {
                 </a>
             </div>
             <div className={styles.contentSection}>
-                <img className={styles.mainImage} src={props.basicInfo.image} alt={"Project Image"}/>
+                <img className={styles.mainImage} src={props.basicInfo.image} alt={"Project Image"} width={"70%"}/>
+                {projectContents[props.index]()}
             </div>
 
         </motion.div>

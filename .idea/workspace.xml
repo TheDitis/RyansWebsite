@@ -2,18 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cbeba240-3a3a-43c7-8cee-3ee893dbe5d2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Components/projectDetails/BlueBoxDetails/BlueBoxDetails.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/projectDetails/Drawing2WaveformDetails/Drawing2WaveformDetails.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/projectDetails/PoolPredictorDetails/PoolPredictorDetails.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/projectDetails/PoolPredictorDetails/PoolPredictorDetails.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/projectDetails/SpirogenDetails/SpirogenDetails.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/projectDetails/SpirogenDetails/SpirogenDetails.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/hooks/useTime.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Portfolio/Portfolio.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Portfolio/Portfolio.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Portfolio/portfolioCardInfo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Portfolio/portfolioCardInfo.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/PortfolioCard/PortfolioCard.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/PortfolioCard/PortfolioCard.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/SpirogenDetailsCardContent/SpirogenDetailsCardContent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/projectDetails/BlueBoxDetails/BlueBoxDetails.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/SpirogenDetailsCardContent/SpirogenDetailsCardContent.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/projectDetails/Drawing2WaveformDetails/Drawing2WaveformDetails.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/App/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/App/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Footer/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Footer/Footer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Footer/Footer.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Footer/Footer.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Portfolio/Portfolio.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Portfolio/Portfolio.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/PortfolioCardDetails/PortfolioCardDetails.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/PortfolioCardDetails/PortfolioCardDetails.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/PortfolioCardDetails/PortfolioCardDetails.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/PortfolioCardDetails/PortfolioCardDetails.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/projectDetails/Drawing2WaveformDetails/Drawing2WaveformDetails.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/projectDetails/Drawing2WaveformDetails/Drawing2WaveformDetails.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/projectDetails/Drawing2WaveformDetails/Drawing2WaveformDetails.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/projectDetails/Drawing2WaveformDetails/Drawing2WaveformDetails.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,8 +24,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -57,6 +57,7 @@
       <recent name="$PROJECT_DIR$/src/App" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/Components/projectDetails/DrawingToolDetails" />
       <recent name="$PROJECT_DIR$/src/Components" />
       <recent name="$PROJECT_DIR$/src/Public/Images" />
     </key>
@@ -99,7 +100,7 @@
       <option name="presentableId" value="Default" />
       <updated>1595360137459</updated>
       <workItem from="1595360141797" duration="13946000" />
-      <workItem from="1595520833190" duration="8181000" />
+      <workItem from="1595520833190" duration="17858000" />
     </task>
     <servers />
   </component>

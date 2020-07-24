@@ -3,15 +3,19 @@
     width: 100vw;
     height: calc(100vh - 200px);
     display: flex;
-    overflow-x: scroll;
+    /*overflow-x: scroll;*/
     align-items: center;
     justify-content: center;
 
 }
 
 .cardRow {
-    /*position: relative;*/
-    /*left: 20vw;*/
     display: flex;
-    background-color: red;
+    background-color: white;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4) inset;
+    justify-content: center;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    min-width: 100vw;
+    max-width: 600vw;
 }

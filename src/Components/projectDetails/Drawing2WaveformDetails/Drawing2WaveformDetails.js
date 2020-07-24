@@ -1,13 +1,14 @@
 import React from 'react';
+import styles from './Drawing2WaveformDetails.css';
 
 
 const Drawing2WaveformDetails = props => {
     return (
         <div className="projectInfo">
-            <div className="projectHeader">
-                <h1>Drawing2Waveform</h1>
-                <p>Input an image of a scribble, and get back a single-cycle wav file for a synthesizer.</p>
-            </div>
+            {/*<div className="projectHeader">*/}
+            {/*    <h1>Drawing2Waveform</h1>*/}
+            {/*    <p>Input an image of a scribble, and get back a single-cycle wav file for a synthesizer.</p>*/}
+            {/*</div>*/}
             <br/><br/>
             <h2>To use:</h2>
             <ol>
@@ -24,6 +25,7 @@ const Drawing2WaveformDetails = props => {
                 src="https://raw.githubusercontent.com/TheDitis/Drawing2Waveform/master/Inputphotos/PhonePhoto5.jpg"
                 alt="Example Image"
                 className="projectImage"
+                width={"100%"}
             />
             <ol>
                 <li>Put the image into the <strong>Inputphotos</strong> folder.</li>
@@ -50,23 +52,27 @@ const Drawing2WaveformDetails = props => {
             </h3>
             <br/><br/>
             <h2>Checking & Debugging</h2>
-            <p>The fastest way to check if things went as expected is to check
+            <p>
+                The fastest way to check if things went as expected is to check
                 the <strong>DebugImages</strong> folder. For
                 each run, 2 image files are automatically generated. The first in the chain is
                 <strong>ThresholdTest.png</strong> and the second is <strong>ContourCheck.png</strong>, which will
                 very
                 quickly tell you whether or not your sound will be easily playable. Here&#39;s what
-                <em>ContourCheck.png</em> should look like on a successful run:</p>
+                <em>ContourCheck.png</em> should look like on a successful run:
+            </p>
             <img
                 src="https://raw.githubusercontent.com/TheDitis/Drawing2Waveform/master/DebugImages/ContourCheck.png"
                 alt="Example Image"
                 className="projectImage"
+                width={"90%"}
             />
             <p>Here is what <em>ThresholdTest.png</em> should roughly look like on a good run:</p>
             <img
                 src="https://raw.githubusercontent.com/TheDitis/Drawing2Waveform/master/DebugImages/ThresholdTest.png"
                 alt="Example Image"
                 className="projectImage"
+                width={"90%"}
             />
             <p>
                 Don't worry if your threshold looks a bit more messy, as long
@@ -84,50 +90,56 @@ const Drawing2WaveformDetails = props => {
                 src="https://raw.githubusercontent.com/TheDitis/Drawing2Waveform/master/doc_resources/TopDownDemo.png"
                 alt="Example Image"
                 className="projectImage"
+                width={"90%"}
+                useMap={"#topDownMap"}
             />
+            <map name={"topDownMap"}>
+                <area shape={"rect"} coords={"100, 100, 400, 400"} alt={"Jump"}/>
+            </map>
             <br/><br/>
             <h2>Other Things To Know</h2>
             <p>Along with understanding that any overhangs will cause jumps, it helps to know how sharp
                 jumps can be avoided
                 in the looping in your synthesizer.</p>
             <ul>
-                <li><p>The algorithm takes the average of the last couple of samples, and averages that
+                <li>The algorithm takes the average of the last couple of samples, and averages that
                     with the average of
                     the first couple of samples, and then shifts the waveform values vertically so that
                     the two ends
-                    straddle the center line as closely as possible</p>
+                    straddle the center line as closely as possible
                 </li>
-                <li><p>This means that, if both of your end-points are either low or high compared to
+                <li>This means that, if both of your end-points are either low or high compared to
                     the majority of the
                     rest of the drawing, you will get a sort of lopsided waveform, which isn't
                     necessarily a bad thing,
-                    just know that the volume won't be as loud.</p>
+                    just know that the volume won't be as loud.
                 </li>
-                <li><p>It also means that if the endpoints of your audio file are on opposite ends
+                <li>It also means that if the endpoints of your audio file are on opposite ends
                     vertically, than you will
                     get more of a squarewave-like character when you play it through a synthesizer,
                     unless your synthesizer
-                    has a crossfade parameter.</p>
+                    has a crossfade parameter.
                 </li>
-                <li><p>Even when you start and end your waveform nicely on the center line, there will
+                <li>Even when you start and end your waveform nicely on the center line, there will
                     likely still be small
                     jumps on cycling, due to anything from the angle of the photo to the bleed of the
                     marker, so it is
-                    recommended to use a synthesizer that does have crossfade parameter.</p>
+                    recommended to use a synthesizer that does have crossfade parameter.
                 </li>
-                <li><p>Once the wave has been centered using the front and end points, it automatically
+                <li>Once the wave has been centered using the front and end points, it automatically
                     scales the amplitude
                     to maximize volume, so you don't need to be concerned with how tall or short
                     your drawing is. It can
                     be very interesting to play with making as squished of a waveform you can, and
                     seeing what it sounds
-                    like when the tiny bumps are amplified.</p>
+                    like when the tiny bumps are amplified.
                 </li>
             </ul>
             <img
                 src="https://raw.githubusercontent.com/TheDitis/Drawing2Waveform/master/doc_resources/WaveformDrawDemo.png"
                 alt="Example Image"
                 className="projectImage"
+                width={"90%"}
             />
         </div>
     )

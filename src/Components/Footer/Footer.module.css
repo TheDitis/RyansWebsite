@@ -6,3 +6,17 @@
     width: 100vw;
     height: 100px;
 }
+
+.bottomSection {
+    /*display: flex;*/
+    /*justify-content: center;*/
+    width: 100vw;
+    position: absolute;
+    bottom: 0px;
+}
+
+.time {
+    display: flex;
+    float: right;
+    margin-right: 10px;
+}
