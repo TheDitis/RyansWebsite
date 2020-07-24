@@ -2,17 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cbeba240-3a3a-43c7-8cee-3ee893dbe5d2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Components/hooks/useTime.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/App/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/App/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Footer/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Footer/Footer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Bio/Bio.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Bio/Bio.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Bio/Bio.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Bio/Bio.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Footer/Footer.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Footer/Footer.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Portfolio/Portfolio.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Portfolio/Portfolio.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/PortfolioCardDetails/PortfolioCardDetails.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/PortfolioCardDetails/PortfolioCardDetails.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/PortfolioCardDetails/PortfolioCardDetails.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/PortfolioCardDetails/PortfolioCardDetails.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Navbar/Navbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Navbar/Navbar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Navbar/Navbar.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Navbar/Navbar.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/projectDetails/Drawing2WaveformDetails/Drawing2WaveformDetails.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/projectDetails/Drawing2WaveformDetails/Drawing2WaveformDetails.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/projectDetails/Drawing2WaveformDetails/Drawing2WaveformDetails.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/projectDetails/Drawing2WaveformDetails/Drawing2WaveformDetails.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,8 +21,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -37,7 +34,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Components/projectDetails/DrawingToolDetails" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Components/Bio" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -100,7 +97,7 @@
       <option name="presentableId" value="Default" />
       <updated>1595360137459</updated>
       <workItem from="1595360141797" duration="13946000" />
-      <workItem from="1595520833190" duration="17858000" />
+      <workItem from="1595520833190" duration="27352000" />
     </task>
     <servers />
   </component>
@@ -119,5 +116,16 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/Components/Bio/Bio.js</url>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

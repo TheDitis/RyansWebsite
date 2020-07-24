@@ -10,7 +10,12 @@ const Navbar = props => {
                 <h1 className={styles.siteTitle}>Ryan's Site</h1>
             </div>
             <div className={styles.bottomSection}>
-
+                <a href={"/"} className={styles.navLink}>
+                    <h4 >Projects</h4>
+                </a>
+                <a href={"about"} className={styles.navLink}>
+                    <h4>About Me</h4>
+                </a>
             </div>
         </div>
     )

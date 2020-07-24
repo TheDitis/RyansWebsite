@@ -10,8 +10,10 @@
     "luxon": "^1.24.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
+    "react-player": "^2.6.0",
     "react-router-dom": "^5.2.0",
     "react-scripts": "3.4.1",
+    "react-soundcloud-embed": "^1.0.3",
     "react-uuid": "^1.0.2"
   },
   "scripts": {
